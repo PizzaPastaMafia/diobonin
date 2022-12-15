@@ -1,0 +1,49 @@
+:root{
+  --primary-bg: #cbf842;
+  --primary: #5E60CE;
+  --secondary: #47FFCB;
+}
+
+.masthead {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: var(--primary-bg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.masthead h1, .masthead .h1 {
+  font-size: 4rem;
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 992px) {
+.masthead {
+  height: 100vh;
+}
+.masthead h1, .masthead .h1 {
+  font-size: 5.5rem;
+}
+}
+
+.content-section {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+
+.content-section-heading h2, .content-section-heading .h2 {
+  font-size: 3rem;
+}
+.content-section-heading h3, .content-section-heading .h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color: var(--bs-primary);
+}
