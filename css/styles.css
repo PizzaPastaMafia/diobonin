@@ -2,6 +2,9 @@
   --primary-bg: #cbf842;
   --primary: #5E60CE;
   --secondary: #47FFCB;
+  --tertiary: #0B0C1D;
+  --text-secondary: #D6FFF3;
+  --text-unimportant: #555555;
 }
 
 .masthead {
@@ -46,4 +49,41 @@
 
 .btn-primary {
   background-color: var(--bs-primary);
+}
+
+
+#callToAction {
+  background-color: var(--tertiary);
+  color: var(--text-secondary);
+}
+
+#testimonials {
+  margin: 60px;
+}
+#callout {
+  background-color: var(--secondary);
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.overflow{
+  overflow: hidden;
+}
+
+.fda-disclaimer{
+  color: var(--text-unimportant) !important;
+}
+
+.footer{
+  background-color: var(--secondary);
+  color: var(--text-secondary);
+}
+
+.navbar {
+  background-color: var(--primary-bg) !important;
 }
